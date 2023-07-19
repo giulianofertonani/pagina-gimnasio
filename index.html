@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Gimnasio pagina prueba</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!--menu-->
+    <div class="contenedor-header">
+      <header>
+        <h1>THE <span class="txtRojo">GYM</span></h1>
+        <nav id="nav">
+          <a href="#inicio" onclick="seleccionar()">Inicio</a>
+          <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+          <a href="#servicios" onclick="seleccionar()">Servicios</a>
+          <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
+          <a href="#galeria" onclick="seleccionar()">Galeria</a>
+          <a href="#equipo" onclick="seleccionar()">Equipo</a>
+          <a href="#contacto" onclick="seleccionar()">Contacto</a>
+        </nav>
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+        <div class="nav-responsive" id="icono-nav" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+<!--seccion inicio-->
+    <section id="inicio" class="inicio">
+      <div class="contenido-seccion">
+        <div class="info">
+          <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+          <p>Triunfar es mas facil de lo que piensas!</p>
+          <a href="#nosotros" class="btn-mas">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </a>
+        </div>
+        <div class="opciones">
+          <div class="opcion">
+            1.FITNES
+          </div>
+          <div class="opcion">
+            2.CROSSFIT
+          </div>
+          <div class="opcion">
+            3.BOXING
+          </div>
+          <div class="opcion">
+            4.ENDURANCE
+          </div>
+          <div class="opcion">
+            5.YOGA
+          </div>
+          <div class="opcion">
+            6.CARDIO
+          </div>
+        </div>
+      </div>
+    </section>
+<!--seccion nosotros-->
+    <section id="nosotros" class="nosotros">
+      <div class="fila">
+        <div class="col">
+          <img src="nosotros.jpg" alt="">
+        </div>
+        <div class="col">
+          <div class="contenedor-titulo">
+            <div class="numero">
+              1 |
+            </div>
+            <div class="info">
+              <span class="frase">LA MEJOR EXPERIENCIA</span>
+              <H2>NOSOTROS</H2>
+            </div>
+          </div>
+          <p class="p-especial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, possimus minima! Quaerat dolor dicta vero culpa quae ducimus molestias a, autem rerum rem, sed quia itaque saepe dolore eaque ratione.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, magnam. Dolorum facilis mollitia nulla atque cumque vero molestiae earum dolores harum voluptatem. Quibusdam dolorem similique rem perferendis amet excepturi ut.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="fila-nosotros">
+        <div class="col1">
+          <span class="frase">
+            <span class="txtRojo">ENTRENA</span>DIFERENTE
+          </span>
+          <h2>ENTRENA <span class="txtRojo">GRATIS</span>HOY</h2>
+        </div>
+        <div class="col2">
+          <button>PASE LIBRE</button>
+        </div>
+      </div>
+    </section>
+<!--seccion servicios-->
+<section id="servicios" class="servicios">
+  <div class="contenido-servicios">
+    <div class="fila">
+      <div class="col">
+        <div class="contenedor-titulo">
+          <div class="numero">
+          2 ||
+          </div>
+          <div class="info">
+           <span class="frase">LA MEJOR EXPERIENCIA</span>
+           <H2>SERVICIOS</H2>
+          </div>
+       </div>
+        <p class="p-especial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, possimus minima! Quaerat dolor dicta vero culpa quae ducimus molestias a, autem rerum rem, sed quia itaque saepe dolore eaque ratione.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, magnam. Dolorum facilis mollitia nulla atque cumque vero molestiae earum dolores harum voluptatem. Quibusdam dolorem similique rem perferendis amet excepturi ut.</p>
+      </div>
+      <div class="col">
+        <img src="servicios.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="info-servicios">
+    <table>
+      <tr>
+        <td>
+          <i class="fa-solid fa-person-walking"></i>
+          <h3><span class="txtRojo">Clases </span>de Fitness</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint facilis quibusdam in ratione commodi dolores totam fugiat architecto animi, optio libero nesciunt cum. At quaerat repudiandae ducimus ullam a unde.</p>
+        </td>
+        <td>
+          <i class="fa-solid fa-dumbbell"></i>
+          <h3><span class="txtRojo">Clases </span>de Crossfit</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint facilis quibusdam in ratione commodi dolores totam fugiat architecto animi, optio libero nesciunt cum. At quaerat repudiandae ducimus ullam a unde.</p>
+        </td>
+        <td>
+          <i class="fa-solid fa-mitten"></i>
+          <h3><span class="txtRojo">Clases </span>de Boxeo</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint facilis quibusdam in ratione commodi dolores totam fugiat architecto animi, optio libero nesciunt cum. At quaerat repudiandae ducimus ullam a unde.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <i class="fa-solid fa-clock"></i>
+          <h3><span class="txtRojo">Clases </span>de Enduro</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint facilis quibusdam in ratione commodi dolores totam fugiat architecto animi, optio libero nesciunt cum. At quaerat repudiandae ducimus ullam a unde.</p>
+        </td>
+        <td>
+          <i class="fa-solid fa-heart-circle-bolt"></i>
+          <h3><span class="txtRojo">Clases </span>de Cardio</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint facilis quibusdam in ratione commodi dolores totam fugiat architecto animi, optio libero nesciunt cum. At quaerat repudiandae ducimus ullam a unde.</p>
+        </td>
+        <td>
+          <i class="fa-solid fa-bicycle"></i>
+          <h3><span class="txtRojo">Clases </span>de Ciclismo</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint facilis quibusdam in ratione commodi dolores totam fugiat architecto animi, optio libero nesciunt cum. At quaerat repudiandae ducimus ullam a unde.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<!--seccion comodidades-->
+<section id="comodidades" class="comodidades">
+  <div class="fila">
+    <div class="col">
+      <img src="nosotros.jpg" alt="">
+    </div>
+    <div class="col">
+      <div class="contenedor-titulo">
+        <div class="numero">
+          3 |||
+        </div>
+        <div class="info">
+          <span class="frase">LA MEJOR EXPERIENCIA</span>
+          <H2>COMODIDADES</H2>
+        </div>
+      </div>
+      <p class="p-especial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae qui consequatur. Iure neque rem labore sint aut perferendis repellendus totam, sequi culpa delectus odit porro exercitationem suscipit quaerat dolorum!</p>
+      <ul>
+        <li><span>PILETA </span>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae optio nisi harum sapiente sunt culpa aliquid, corporis, architecto nihil veritatis consequatur quaerat, reiciendis explicabo accusantium nemo. Beatae, dolorum aspernatur!</li>
+        <li><span>WIFI GRATIS </span>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae optio nisi harum sapiente sunt culpa aliquid, corporis, architecto nihil veritatis consequatur quaerat, reiciendis explicabo accusantium nemo. Beatae, dolorum aspernatur!</li>
+        <li><span>ESTACIONAMIENTO GRATIS </span>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae optio nisi harum sapiente sunt culpa aliquid, corporis, architecto nihil veritatis consequatur quaerat, reiciendis explicabo accusantium nemo. Beatae, dolorum aspernatur!</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!--seccion galeria-->
+<section id="galeria" class="galeria">
+  <div class="contenido-seccion">
+    <div class="contenedor-titulo">
+      <div class="numero">
+      4 ||||
+      </div>
+      <div class="info">
+       <span class="frase">LA MEJOR EXPERIENCIA</span>
+       <H2>GALERIA</H2>
+      </div>
+   </div>
+   <div class="fila">
+    <div class="col">
+      <img src="f1.jfif" alt="">
+    </div>
+    <div class="col">
+      <img src="f2.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="f3.jpg" alt="">
+    </div>
+   </div>
+   <div class="fila">
+    <div class="col">
+      <img src="f4.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="f5.jfif" alt="">
+    </div>
+    <div class="col">
+      <img src="f6.jpg" alt="">
+    </div>
+   </div>
+  </div>
+</section>
+<!--seccion equipo-->
+<section  id="equipo" class="equipo">
+  <div class="contenido-seccion">
+    <div class="contenedor-titulo">
+      <div class="numero">
+      5 |||||
+      </div>
+      <div class="info">
+       <span class="frase">LA MEJOR EXPERIENCIA</span>
+       <H2>EQUIPO</H2>
+      </div>
+    </div>
+   <div class="fila">
+    <div class="col">
+      <img src="e1.png" alt="">
+      <div class="info">
+        <h2>Marcos </h2>
+        <p>Fitnes - Pilates - Yoga</p>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="col">
+      <img src="e2.png" alt="">
+      <div class="info">
+        <h2>Patricia </h2>
+        <p>Fitnes - Pilates - Yoga</p>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="col">
+      <img src="e3.png" alt="">
+      <div class="info">
+        <h2>Sofia </h2>
+        <p>Fitnes - Pilates - Yoga</p>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+   </div>
+  </div>
+</section>
+<!--seccion contacto-->
+<section id="contacto" class="contacto">
+  <div class="contenido-seccion">
+    <div class="contenedor-titulo">
+      <div class="numero">
+      6 ||||||
+      </div>
+      <div class="info">
+       <span class="frase">LA MEJOR EXPERIENCIA</span>
+       <H2>CONTACTO</H2>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="col">
+        <input type="text" placeholder="Ingrese Email">
+      </div>
+      <div class="col">
+        <input type="text" placeholder="Ingrese Nombre">
+      </div>
+    </div>
+    <div class="mensaje">
+      <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese Mensaje"></textarea>
+      <button>Enviar Mensaje</button>
+    </div>
+    <div class="fila-datos">
+      <div class="col">
+        <i class="fa-solid fa-location-dot"></i>Avenida El Morro 190
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-phone"></i> 351 - 6868494
+      </div>
+      <div class="col">
+      <i class="fa-solid fa-clock"></i> Lunes a Sábado, 8:00h - 20:00h
+    </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="info">
+    <p>2023 - <span class="txtRojo">THE GYM</span>Todos los derechos reservados</p>
+    <div class="redes">
+      <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </div>
+</footer>
+    <script src="codigo.js"></script>
+  </body>
+</html>
+
